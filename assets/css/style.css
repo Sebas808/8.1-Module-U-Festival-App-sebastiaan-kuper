@@ -1,0 +1,118 @@
+:root {
+  --accent: #F03228;
+  --base: #ffffff;
+  --primary: #000000;
+  --secondary: #247BA0;
+  --info: #E3B505;
+}
+
+/* DARK MODE */
+body.dark {
+  --base: #000;
+  --primary: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sansation', sans-serif;
+  background: var(--base);
+  color: var(--primary);
+}
+
+/* HEADER */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+.topbar h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* ACTION BUTTONS */
+.actions button {
+  margin-left: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+}
+
+/* MAIN */
+main {
+  padding: 10px;
+  padding-bottom: 80px;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background: var(--accent);
+}
+
+nav button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* CARDS */
+.card {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* INFO ACCORDION */
+.section {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  background: var(--secondary);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-content {
+  padding: 10px;
+}
+
+/* SCHEDULE */
+.schedule-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.schedule-tabs button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: black;
+  color: white;
+}
+
+.schedule-item {
+  background: var(--secondary);
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px 0;
+}

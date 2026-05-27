@@ -9,7 +9,7 @@
 /* DARK MODE */
 body.dark {
   --base: #000;
-  --primary: #fff;
+  --primary: #000000;
 }
 
 body {
